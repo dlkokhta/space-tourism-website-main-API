@@ -9,3 +9,5 @@ export interface DestinationTypes {
   travel: string;
   id: string;
 }
+
+
