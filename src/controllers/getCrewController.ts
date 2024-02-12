@@ -6,9 +6,9 @@ const getCrewController = async (req: Request, res: Response) => {
   console.log(name);
 
   try {
-    const destination = await Crew.findOne({ name: name });
-    console.log("destination", destination);
-    res.send(destination);
+    const crew = await Crew.findOne({ name: name });
+    console.log("crew", crew);
+    res.send(crew);
   } catch (error) {
     console.log(error);
   }
