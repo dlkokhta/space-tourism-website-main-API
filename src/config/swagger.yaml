@@ -7,8 +7,8 @@ info:
 servers:
   - url: http://localhost:3000
     description: local server
-  # - url: collaboration-project-api-production.up.railway.app
-  #   description: production server
+  - url: space-tourism-website-main-api-production.up.railway.app
+    description: production server
 
 components:
   securitySchemes:
