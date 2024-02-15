@@ -2,7 +2,7 @@
   "name": "space-tourism-website-main-api",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "start": "node build/app.js",
     "build:watch": "babel src --out-dir build --extensions .ts --copy-files --watch",
