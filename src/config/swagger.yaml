@@ -7,7 +7,11 @@ info:
 servers:
   - url: http://localhost:3000
     description: local server
+<<<<<<< HEAD
   - url: https://space-tourism-website-main-api-production.up.railway.app
+=======
+  - url: space-tourism-website-main-api-production.up.railway.app
+>>>>>>> origin/master
     description: production server
 
 components:
